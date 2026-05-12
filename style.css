@@ -80,7 +80,7 @@ footer {
 .button{
   display: inline-block;
   padding: 12px 24px;
-  background-color: #111;
+  background-color: gainsboro;
   color: white;
   text-decoration: none;
   border-radius: 10px;
