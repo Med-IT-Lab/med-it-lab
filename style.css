@@ -76,3 +76,12 @@ footer {
   display: flex;
   gap: 20px;
 }
+
+.button{
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #111;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
