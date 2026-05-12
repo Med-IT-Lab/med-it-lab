@@ -85,3 +85,8 @@ footer {
   text-decoration: none;
   border-radius: 10px;
 }
+
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+}
