@@ -90,3 +90,11 @@ footer {
   max-width: 800px;
   margin: 0 auto;
 }
+
+.card{
+  background-color: #f5f5f5;
+  padding: 24px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 08);
+}
