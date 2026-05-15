@@ -6,7 +6,7 @@ timeButton.addEventListener("click", function() {
     studyTime.textContent = timeInput.value;
 });
 
-const todoInput = document.querySelector("#input-todo");
+const todoInput = document.querySelector("#input-to-do");
 const todoButton = document.querySelector("#save-to-do");
 const todaytodo = document.querySelector("#today-to-do");
 
