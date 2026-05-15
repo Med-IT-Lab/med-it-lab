@@ -4,6 +4,12 @@ const studyTime = document.querySelector("#study-time");
 
 const savedTime = localStorage.getItem("studyTime");
 
+const studyHistry = [];
+timeButton.addEventListener("click",function(){
+    studyHistry.push(timeInput.value);
+    console.log(studyHistry);
+})
+
 studyTime.textContent = savedTime
 
 timeButton.addEventListener("click", function() {
