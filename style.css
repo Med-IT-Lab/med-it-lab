@@ -123,3 +123,8 @@ footer {
   display: flex;
   gap: 20px;
 }
+
+.big-number{
+  font-size: 40px;
+  font-weight: bold;
+}
