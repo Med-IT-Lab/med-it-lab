@@ -13,7 +13,7 @@ timeButton.addEventListener("click",function(){
 studyTime.textContent = savedTime
 
 timeButton.addEventListener("click", function() {
-    studyTime.textContent = timeInput.value;
+
     localStorage.setItem("studyTime",timeInput.value);
 });
 
