@@ -28,6 +28,11 @@ const workInput = document.querySelector("#work-input");
 const workButton = document.querySelector("#save-work");
 const todayWork = document.querySelector("#today-work");
 
+const savedwork = localStorage.getItem("todaywork")
+
+todayWork.textContent = savedwork
+
 workButton.addEventListener("click", function() {
     todayWork.textContent = workInput.value;
+    localStorage.setItem("todaywork",workInput.value);
 });
