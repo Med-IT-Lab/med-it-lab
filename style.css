@@ -128,3 +128,9 @@ footer {
   font-size: 40px;
   font-weight: bold;
 }
+
+@media(max-width:600px){
+  .row{
+    flex-direction: column;
+  }
+}
