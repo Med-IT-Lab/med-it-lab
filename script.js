@@ -15,8 +15,13 @@ const todoInput = document.querySelector("#input-to-do");
 const todoButton = document.querySelector("#save-to-do");
 const todaytodo = document.querySelector("#today-to-do");
 
+const savedtodo=localStorage.getItem("todaytodo");
+
+todaytodo.textContent=savedtodo
+
 todoButton.addEventListener("click", function() {
     todaytodo.textContent = todoInput.value;
+    localStorage.setItem("todaytodo",todoInput.value);
 });
 
 const workInput = document.querySelector("#work-input");
