@@ -17,7 +17,7 @@ const todaytodo = document.querySelector("#today-to-do");
 
 const savedtodo=localStorage.getItem("todaytodo");
 
-todaytodo.textContent=savedtodo
+todaytodo.textContent = savedtodo
 
 todoButton.addEventListener("click", function() {
     todaytodo.textContent = todoInput.value;
