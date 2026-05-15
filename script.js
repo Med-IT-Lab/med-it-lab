@@ -1,23 +1,23 @@
-const input = document.querySelector("#time-input");
-const button = document.querySelector("#save-time");
+const timeinput = document.querySelector("#time-input");
+const timebutton = document.querySelector("#save-time");
 const studyTime = document.querySelector("#study-time");
 
-button.addEventListener("click", function() {
-    studyTime.textContent = input.value;
+timebuttonbutton.addEventListener("click", function() {
+    studyTime.textContent = timeinputinput.value;
 });
 
-const input = document.querySelector("#work-input");
-const button = document.querySelector("#save-work");
+const workinput = document.querySelector("#work-input");
+const workbutton = document.querySelector("#save-work");
 const todayWork = document.querySelector("#today-work");
 
 button.addEventListener("click", function() {
-    todayWork.textContent = input.value;
+    todayWork.textContent = workinput.value;
 });
 
-const input = document.querySelector("#input-to-do");
-const button = document.querySelector("#save-to-do");
-const studyTime = document.querySelector("#today-to-do");
+const todoinput = document.querySelector("#input-to-do");
+const todobutton = document.querySelector("#save-to-do");
+const todo = document.querySelector("#today-to-do");
 
 button.addEventListener("click", function() {
-    studyTime.textContent = input.value;
+    studyTime.textContent = todoinput.value;
 });
