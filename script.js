@@ -4,6 +4,9 @@ const studyTime = document.querySelector("#study-time");
 
 timeButton.addEventListener("click", function() {
     studyTime.textContent = timeInput.value;
+    localStorage.setItem("studyTime",timeInput.value);
+    const savedTime = localStorage.getItem("studyTime");
+    studyTime.textContent = savedTime
 });
 
 const todoInput = document.querySelector("#input-to-do");
