@@ -1,17 +1,13 @@
 const timeInput = document.querySelector("#time-input");
 const timeButton = document.querySelector("#save-time");
 const studyTime = document.querySelector("#study-time");
-
 const savedTime = localStorage.getItem("studyTime");
-
 const studyHistory = [];
 timeButton.addEventListener("click",function(){
     studyHistory.push(timeInput.value);
     studyTime.textContent = studyHistory;
 })
-
 studyTime.textContent = savedTime
-
 timeButton.addEventListener("click", function() {
 
     localStorage.setItem("studyTime",timeInput.value);
@@ -20,11 +16,14 @@ timeButton.addEventListener("click", function() {
 const todoInput = document.querySelector("#input-to-do");
 const todoButton = document.querySelector("#save-to-do");
 const todaytodo = document.querySelector("#today-to-do");
-
 const savedtodo=localStorage.getItem("todaytodo");
+const todolist = [];
+todoButton.addEventListener("click",function(){
+    todolist.push(todoInput.value);
+    todaytodo.textContent = todolist;
 
+})
 todaytodo.textContent = savedtodo
-
 todoButton.addEventListener("click", function() {
     todaytodo.textContent = todoInput.value;
     localStorage.setItem("todaytodo",todoInput.value);
